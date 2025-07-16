@@ -1,0 +1,226 @@
+.solution-section {
+    background: var(--background);
+    padding: 48px 0 32px 0;
+    width: 100%;
+}
+
+.solution-header {
+    border-radius: 8px;
+    max-width: 1100px;
+    margin: 0 auto 38px auto;
+    padding: 32px 24px 24px 24px;
+    text-align: center;
+}
+
+.solution-header .highlight {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.solution-header h2 {
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+    color: var(--text);
+}
+
+.solution-header b {
+    font-weight: 700;
+}
+
+.solution-header p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+.solution-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.solution-card {
+    background: #eaf6fc;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(102, 170, 199, 0.10);
+    padding: 28px 24px 24px 24px;
+    display: flex;
+    gap: 20px;
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    min-height: 160px;
+    border-bottom: 4px solid var(--blue);
+    transition: all 0.3s ease;
+    transform: perspective(1000px) rotateX(5deg);
+    transform-origin: center bottom;
+}
+
+.solution-target {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.solution-card:hover {
+    box-shadow: 0 8px 24px rgba(102, 170, 199, 0.18);
+    transform: perspective(1000px) rotateX(10deg) translateY(-8px) scale(1.05);
+}
+
+.solution-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 18px;
+}
+
+.solution-number {
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: var(--blue);
+    margin-bottom: 8px;
+    transition: color 0.2s;
+}
+
+.solution-desc {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 13px;
+    color: var(--text);
+    text-align: left;
+    margin-bottom: 0;
+    line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+    .solution-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .solution-header {
+        padding: 18px 8px 14px 8px;
+    }
+}
+
+/* MacBook Air 1280x800 */
+@media (max-width: 1280px) {
+    .solution-header {
+        padding: 24px 12px 18px 12px;
+        max-width: 900px;
+    }
+
+    .solution-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .solution-grid {
+        gap: 20px;
+        max-width: 900px;
+    }
+
+    .solution-card {
+        width: 240px;
+        min-height: 120px;
+        padding: 18px 12px 18px 12px;
+    }
+
+    .solution-icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 12px;
+    }
+
+    .solution-number {
+        font-size: 1.5rem;
+    }
+
+    .solution-desc {
+        font-size: 12px;
+    }
+}
+
+/* Tablet: covers common iPad sizes and similar (portrait and landscape) */
+@media (max-width: 1024px) {
+    .solution-header {
+        padding: 14px 6px 10px 6px;
+        max-width: 700px;
+        text-align: start;
+    }
+
+    .solution-header h2 {
+        font-size: 1.2rem;
+    }
+    
+    .solution-header .highlight {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .solution-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        max-width: 700px;
+    }
+
+    .solution-card {
+        width: 45vw;
+        min-width: 160px;
+        max-width: 320px;
+        min-height: 100px;
+        padding: 12px 8px 12px 8px;
+    }
+
+    .solution-icon {
+        width: 32px;
+        height: 32px;
+        margin-bottom: 8px;
+    }
+}
+
+/* Phone: covers common iPhone sizes and similar */
+@media (max-width: 600px) {
+    .solution-header {
+        padding: 8px 2px 6px 2px;
+        max-width: 85vw;
+        text-align: start;
+    }
+
+    .solution-header .highlight {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    .solution-header h2 {
+        font-size: 1rem;
+    }
+
+    .solution-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        max-width: 85vw;
+        padding: 0 2px;
+    }
+
+    .solution-card {
+        width: 85vw;
+        min-width: 0;
+        max-width: 98vw;
+        min-height: 80px;
+        padding: 8px;
+    }
+
+    .solution-icon {
+        width: 24px;
+        height: 24px;
+        margin-bottom: 6px;
+    }
+}
