@@ -6,6 +6,10 @@
 @import url('/css/faq.css');
 @import url('/css/map.css');
 @import url('/css/header.css');
+@import url('/css/footer.css');
+@import url('/css/patner.css');
+@import url('/css/construction.css');
+@import url('/css/dryport.css');
 
 
 :root {
@@ -16,7 +20,8 @@
     --second-background: #F2F2F2;
     --button: linear-gradient(to top right, #F6F6F6, #E8F5FA);
     --button-hover: linear-gradient(to top right, #66AAC7, #4192B5);
-
+    --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
 }
 
 * {
@@ -34,4 +39,3 @@ html {
     overflow-y: auto;
 
 }
-
