@@ -25,7 +25,7 @@
     padding: 0 20px;
 }
 .aboutblog-content h3 {
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 1rem;
     line-height: 1.2;
@@ -34,7 +34,7 @@
 
 .aboutblog-content p {
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     color: var(--text);
     margin-bottom: 15px;
@@ -80,7 +80,7 @@
     }
     
     .aboutblog-content p {
-        font-size: 13px;
+        font-size: 15px;
         line-height: 1.5;
         margin-bottom: 12px;
     }
@@ -102,7 +102,7 @@
     }
     
     .aboutblog-content p {
-        font-size: 12px;
+        font-size: 15px;
         line-height: 1.4;
         margin-bottom: 10px;
     }

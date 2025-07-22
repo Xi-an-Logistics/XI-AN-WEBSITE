@@ -12,22 +12,22 @@
 }
 
 .career-title {
-     flex: 1;
-    font-size: 2rem;
-    font-weight: 400;
-    color: var(--text);
-    text-align: center;
-    margin: 0;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+  flex: 1;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--text);
+  text-align: center;
+  margin: 0;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 
-    
+
 }
 
 .career-title span {
   font-weight: bold;
-   font-size: 2rem;
-    font-weight: 500;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .career-cards {
@@ -35,7 +35,8 @@
   grid-template-columns: repeat(3, 20rem);
   gap: 30px;
 }
-.green P{
+
+.green P {
   color: #28a745;
 }
 
@@ -50,7 +51,7 @@
   transition: var(--transition);
   width: 20rem;
   height: 15rem;
-   box-shadow: 0px 3px 0 var(--blue);
+  box-shadow: 0px 3px 0 var(--blue);
 }
 
 .career-card:hover {

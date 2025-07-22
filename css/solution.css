@@ -100,127 +100,173 @@
     line-height: 1.4;
 }
 
+@media (max-width: 1134px) {
+   .solution-section {
+       padding: 40px 0 28px 0;
+   }
+   
+   .solution-header {
+       max-width: 95vw;
+       padding: 28px 20px 20px 20px;
+       margin-bottom: 32px;
+   }
+
+   .solution-header h2 {
+       font-size: 1.9rem;
+       margin-bottom: 28px;
+   }
+   
+   .solution-header .highlight {
+       font-size: 2rem;
+   }
+
+   .solution-grid {
+       grid-template-columns: repeat(2, 1fr);
+       gap: 24px;
+       max-width: 95vw;
+   }
+
+   .solution-card {
+       width: 100%;
+       min-height: 140px;
+       padding: 24px 20px 20px 20px;
+   }
+
+   .solution-icon {
+       width: 42px;
+       height: 42px;
+       margin-bottom: 16px;
+   }
+
+   .solution-number {
+       font-size: 1.9rem;
+   }
+
+   .solution-desc {
+       font-size: 0.95rem;
+   }
+}
+
 @media (max-width: 900px) {
-    .solution-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
+   .solution-section {
+       padding: 32px 0;
+   }
+   
+   .solution-header {
+       max-width: 90vw;
+       padding: 24px 16px;
+       margin-bottom: 24px;
+   }
 
-    .solution-header {
-        padding: 18px 8px 14px 8px;
-    }
+   .solution-header h2 {
+       font-size: 1.3rem;
+       margin-bottom: 24px;
+   }
+   
+   .solution-header .highlight {
+       font-size: 1.5rem;
+   }
+
+   .solution-grid {
+       grid-template-columns: repeat(2, 1fr);
+       gap: 16px;
+       max-width: 90vw;
+   }
+
+   .solution-card {
+       width: 100%;
+       min-height: 120px;
+       padding: 16px 12px;
+   }
+
+   .solution-icon {
+       width: 32px;
+       height: 32px;
+   }
+
+   .solution-number {
+       font-size: 1.5rem;
+   }
+
+   .solution-desc {
+       font-size: 0.9rem;
+   }
 }
 
-/* MacBook Air 1280x800 */
-@media (max-width: 1280px) {
-    .solution-header {
-        padding: 24px 12px 18px 12px;
-        max-width: 900px;
-    }
-
-    .solution-header h2 {
-        font-size: 1.5rem;
-    }
-
-    .solution-grid {
-        gap: 20px;
-        max-width: 900px;
-    }
-
-    .solution-card {
-        width: 240px;
-        min-height: 120px;
-        padding: 18px 12px 18px 12px;
-    }
-
-    .solution-icon {
-        width: 40px;
-        height: 40px;
-        margin-bottom: 12px;
-    }
-
-    .solution-number {
-        font-size: 1.5rem;
-    }
-
-    .solution-desc {
-        font-size: 12px;
-    }
-}
-
-/* Tablet: covers common iPad sizes and similar (portrait and landscape) */
-@media (max-width: 1024px) {
-    .solution-header {
-        padding: 14px 6px 10px 6px;
-        max-width: 700px;
-        text-align: start;
-    }
-
-    .solution-header h2 {
-        font-size: 1.2rem;
-    }
-    
-    .solution-header .highlight {
-        font-size: 1.5rem;
-        font-weight: 600;
-    }
-
-    .solution-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 16px;
-        max-width: 700px;
-    }
-
-    .solution-card {
-        width: 45vw;
-        min-width: 160px;
-        max-width: 320px;
-        min-height: 100px;
-        padding: 12px 8px 12px 8px;
-    }
-
-    .solution-icon {
-        width: 32px;
-        height: 32px;
-        margin-bottom: 8px;
-    }
-}
-
-/* Phone: covers common iPhone sizes and similar */
 @media (max-width: 600px) {
-    .solution-header {
-        padding: 8px 2px 6px 2px;
-        max-width: 85vw;
-        text-align: start;
-    }
+   .solution-section {
+       padding: 24px 0;
+   }
+   
+   .solution-header {
+       max-width: 85vw;
+       padding: 20px 12px;
+       margin-bottom: 20px;
+   }
 
-    .solution-header .highlight {
-        font-size: 1.4rem;
-        font-weight: 600;
-    }
+   .solution-header h2 {
+       font-size: 1.1rem;
+       margin-bottom: 16px;
+   }
+   
+   .solution-header .highlight {
+       font-size: 1.3rem;
+   }
 
-    .solution-header h2 {
-        font-size: 1rem;
-    }
+   .solution-grid {
+       grid-template-columns: 1fr;
+       gap: 12px;
+       max-width: 85vw;
+   }
 
-    .solution-grid {
-        grid-template-columns: 1fr;
-        gap: 12px;
-        max-width: 85vw;
-        padding: 0 2px;
-    }
+   .solution-card {
+       min-height: 100px;
+       padding: 14px 10px;
+       flex-direction: row;
+       align-items: center;
+   }
 
-    .solution-card {
-        width: 85vw;
-        min-width: 0;
-        max-width: 98vw;
-        min-height: 80px;
-        padding: 8px;
-    }
+   .solution-icon {
+       width: 28px;
+       height: 28px;
+       margin-bottom: 0;
+       margin-right: 12px;
+   }
 
-    .solution-icon {
-        width: 24px;
-        height: 24px;
-        margin-bottom: 6px;
-    }
+   .solution-number {
+       font-size: 1.3rem;
+   }
+
+   .solution-desc {
+       font-size: 0.85rem;
+   }
+}
+
+@media (max-width: 400px) {
+   .solution-header,
+   .solution-grid {
+       max-width: 80vw;
+   }
+   
+   .solution-header {
+       padding: 16px 10px;
+   }
+   
+   .solution-card {
+       padding: 12px 8px;
+       min-height: 90px;
+   }
+   
+   .solution-icon {
+       width: 24px;
+       height: 24px;
+   }
+   
+   .solution-number {
+       font-size: 1.2rem;
+   }
+   
+   .solution-desc {
+       font-size: 0.8rem;
+   }
 }
