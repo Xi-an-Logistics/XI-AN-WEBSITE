@@ -1,6 +1,8 @@
 .dryport-section {
     background: var(--second-background);
-    padding: 48px 0 32px 0;
+    /* padding: 48px 0 32px 0; */
+    padding-top:5rem ;
+    padding-bottom: 2rem;
     width: 100%;
 }
 
@@ -8,7 +10,7 @@
     text-align: center;
     font-size: 2.1rem;
     font-weight: 400;
-    margin-bottom: 32px;
+    margin-bottom: 2px;
     color: var(--text);
 }
 
@@ -46,7 +48,7 @@
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    text-align: start;
+    text-align: center;
     min-height: 160px;
     border-bottom: 4px solid var(--blue);
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
@@ -65,14 +67,22 @@
     background: var(--button-hover);
     transform: translateY(-4px);
     box-shadow: 0 8px 24px rgba(91, 168, 204, 0.3);
-    justify-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 0;
 }
 
 .dryport-card1:hover {
     background: var(--button-hover);
     transform: translateY(-4px);
     box-shadow: 0 8px 24px rgba(91, 168, 204, 0.3);
-    justify-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 0;
 }
 
 .dryport-icon {
@@ -93,11 +103,14 @@
     margin-bottom: 8px;
     color: var(--text);
     transition: color 0.3s ease;
+    text-align: center;
 }
 
 .dryport-card:hover .dryport-name,
 .dryport-card1:hover .dryport-name {
     color: #ffffff;
+    text-align: center;
+    margin-bottom: 4px;
 }
 
 .dryport-desc {
@@ -106,6 +119,7 @@
     margin-bottom: 0;
     width: 15rem;
     transition: color 0.3s ease;
+    text-align: center;
 }
 
 .dryport-card:hover .dryport-desc,

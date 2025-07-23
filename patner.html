@@ -7,15 +7,14 @@
     <link rel="stylesheet" href="/css/root.css" />
   </head>
   <body>
-       <nav>
+    <div class="nav">
       <div class="logo">
         <img src="/img/logo.png" alt="Logo" />
       </div>
 
       <div class="hamburger-menu" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
+        <img src="/svg/menu-svgrepo-com.svg" alt="Menu" class="menu-icon" />
+        <img src="/svg/close-svgrepo-com.svg" alt="Close" class="close-icon" />
       </div>
 
       <div class="nav-section">
@@ -55,19 +54,19 @@
 
         <div class="navbar2">
           <div class="nav-about">
-            <a href="/index.html">Haqqımızda</a>
+            <a href="/about.html">Haqqımızda</a>
             <img src="/svg/down.svg" alt="" />
 
             <!-- Dropdown Menu -->
             <div class="dropdown-menu">
-              <a href="#">Şirkət haqqında</a>
-              <a href="#">Dəyərlərimiz</a>
-              <a href="#">Strateji partnyorlar</a>
+              <a href="/about.html">Şirkət haqqında</a>
+              <a href="/value.html">Dəyərlərimiz</a>
+              <a href="/patner.html">Strateji partnyorlar</a>
               <a href="#">Daşıma marşurutları</a>
             </div>
           </div>
 
-          <a href="/about.html">Xidmətlər</a>
+          <a href="/services.html">Xidmətlər</a>
 
           <div class="nav-media">
             <a href="/media.html">Media</a>
@@ -75,13 +74,13 @@
 
             <!-- Media Dropdown Menu -->
             <div class="dropdown-menu">
-              <a href="#">Xəbərlər</a>
-              <a href="#">Foto Qalereya</a>
-              <a href="#">Video Qalereya</a>
+              <a href="/bignews.html">Xəbərlər</a>
+              <a href="/fotogallary.html">Foto Qalereya</a>
+              <a href="/video.html">Video Qalereya</a>
             </div>
           </div>
 
-          <a href="/services.html">Karyera</a>
+          <a href="/career.html">Karyera</a>
           <a href="/contact.html">Əlaqə</a>
           <div class="search-online">
             <!-- Search box -->
@@ -99,7 +98,7 @@
           </div>
         </div>
       </div>
-    </nav>
+    </div>
     <!-- Mobile Navigation -->
     <div class="mobile-nav-container" id="mobileNav">
       <div class="mobile-nav-content">
@@ -108,9 +107,8 @@
             <img src="/img/logo.png" alt="Logo" />
           </div>
           <div class="hamburger-menu active" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
+            <img src="/svg/menu-svgrepo-com.svg" alt="Menu" class="menu-icon" />
+            <img src="/svg/close-svgrepo-com.svg" alt="Close" class="close-icon" />
           </div>
         </div>
 
@@ -135,9 +133,9 @@
               <img src="/svg/down.svg" alt="" />
             </div>
             <div class="mobile-nav-links">
-              <a href="#" class="mobile-nav-link">Şirkət haqqında</a>
-              <a href="#" class="mobile-nav-link">Dəyərlərimiz</a>
-              <a href="#" class="mobile-nav-link">Strateji partnyorlar</a>
+              <a href="/about.html" class="mobile-nav-link">Şirkət haqqında</a>
+              <a href="/value.html" class="mobile-nav-link">Dəyərlərimiz</a>
+              <a href="/patner.html" class="mobile-nav-link">Strateji partnyorlar</a>
               <a href="#" class="mobile-nav-link">Daşıma marşurutları</a>
             </div>
           </div>
@@ -153,13 +151,13 @@
               <img src="/svg/down.svg" alt="" />
             </div>
             <div class="mobile-nav-links">
-              <a href="#" class="mobile-nav-link">Xəbərlər</a>
-              <a href="#" class="mobile-nav-link">Foto Qalereya</a>
-              <a href="#" class="mobile-nav-link">Video Qalereya</a>
+              <a href="/bignews.html" class="mobile-nav-link">Xəbərlər</a>
+              <a href="/fotogallary.html" class="mobile-nav-link">Foto Qalereya</a>
+              <a href="/video.html" class="mobile-nav-link">Video Qalereya</a>
             </div>
           </div>
 
-          <a href="/services.html" class="mobile-nav-link">Karyera</a>
+          <a href="/career.html" class="mobile-nav-link">Karyera</a>
           <a href="/contact.html" class="mobile-nav-link">Əlaqə</a>
 
           <div class="mobile-nav-group">
@@ -214,13 +212,13 @@
         </div>
       </div>
     </div>
-    <patners>
+    <div class="patners">
       <div class="content">
         <h2>Strateji Partnyorlar</h2>
         <p>on middle corridor</p>
       </div>
-    </patners>
-    <construction>
+    </div>
+    <div class="construction">
       <section class="construction-section">
         <h2 class="construction-title">
           In China -
@@ -285,9 +283,9 @@
           </div>
         </div>
       </section>
-    </construction>
+    </div>
 
-    <dryport>
+    <div class="dryport">
       <section class="dryport-section">
         <h2 class="dryport-title">
           In China -
@@ -322,7 +320,9 @@
                 alt="Intermodal"
                 class="dryport-icon"
               />
-              <p class="dryport-desc">22 500 m² warehouse of A and A+ categories</p>
+              <p class="dryport-desc">
+                22 500 m² warehouse of A and A+ categories
+              </p>
             </div>
           </div>
 
@@ -354,8 +354,8 @@
           </div>
         </div>
       </section>
-    </dryport>
-     <footer class="footer">
+    </div>
+    <footer class="footer">
       <div class="footer-bg">
         <div class="footer-blur footer-blur-blue"></div>
         <div class="footer-blur footer-blur-red"></div>

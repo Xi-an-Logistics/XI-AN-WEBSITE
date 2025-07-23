@@ -14,13 +14,13 @@
 }
 
 textarea {
-    height: 150px;
+    height: 120px;
     resize: none;
 }
 
 .contact-title {
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--blue);
     margin-bottom: 30px;
     letter-spacing: 1px;
@@ -29,7 +29,7 @@ textarea {
 form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     flex: 1;
 }
 
@@ -40,7 +40,7 @@ form {
 }
 
 .name-input {
-    padding: 16px;
+    padding: 12px 16px;
     border: none;
     box-shadow: var(--shadow);
     font-size: 16px;
@@ -48,26 +48,29 @@ form {
     width: 100%;
     border-radius: 4px;
     transition: all 0.3s ease;
+    height: 48px;
 }
 
 .full-input {
-    padding: 16px;
+    padding: 12px 16px;
     border: none;
     box-shadow: var(--shadow);
     width: 100%;
     font-size: 16px;
     border-radius: 4px;
     transition: all 0.3s ease;
+    height: 48px;
 }
 
 .message-input {
-    padding: 16px;
+    padding: 12px 16px;
     border: none;
     box-shadow: var(--shadow);
     font-size: 16px;
     width: 100%;
     border-radius: 4px;
     transition: all 0.3s ease;
+    font-family: inherit;
 }
 
 /* Enhanced Focus Styles */
@@ -116,7 +119,7 @@ form {
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-top: auto;
+    margin-top: 5px;
 }
 
 .checkbox-row input[type="checkbox"] {
@@ -160,7 +163,7 @@ form {
     gap: 8px;
     transition: var(--transition);
     align-self: flex-start;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .send-btn:hover {
@@ -417,7 +420,7 @@ form {
 
     .name-row {
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
     }
 
     .name-input {
@@ -447,6 +450,15 @@ form {
     .checkbox-row label {
         font-size: 11px;
     }
+
+    .name-input,
+    .full-input {
+        height: 44px;
+    }
+
+    .message-input {
+        height: 100px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -470,8 +482,13 @@ form {
         font-size: 14px;
     }
 
+    .name-input,
+    .full-input {
+        height: 42px;
+    }
+
     .message-input {
-        height: 120px;
+        height: 100px;
     }
 
     .contact-details h4,
@@ -516,5 +533,10 @@ form {
     .send-btn {
         font-size: 13px;
         padding: 10px 20px;
+    }
+
+    .name-input,
+    .full-input {
+        height: 40px;
     }
 }

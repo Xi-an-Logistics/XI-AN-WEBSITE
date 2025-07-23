@@ -1,4 +1,4 @@
-.map {
+.map-img {
     width: 100%;
     max-width: 1350px;
     height: auto;
@@ -15,7 +15,7 @@
     background: var(--button);
 }
 
-map {
+.map {
     display: flex;
     justify-content: center;
     padding: 48px 20px;
@@ -23,11 +23,11 @@ map {
 }
 
 @media (max-width: 1134px) {
-   .map {
+   .map-img {
        max-width: 90%;
    }
    
-   map {
+   .map {
        padding: 36px 12px;
    }
    
@@ -38,22 +38,22 @@ map {
 
 /* Tablet */
 @media (max-width: 1400px) {
-   .map {
+   .map-img {
        max-width: 95%;
    }
    
-   map {
+   .map {
        padding: 40px 15px;
    }
 }
 
 /* Mobile Landscape */
 @media (max-width: 768px) {
-   .map {
+   .map-img {
        max-width: 100%;
    }
    
-   map {
+   .map {
        padding: 30px 10px;
    }
    
@@ -64,7 +64,7 @@ map {
 
 /* Mobile Portrait */
 @media (max-width: 480px) {
-   map {
+   .map-img {
        padding: 20px 5px;
    }
    
